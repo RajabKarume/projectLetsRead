@@ -28,10 +28,12 @@ const App: React.FC = ({books}) => {
   return (
     <>
     <Homebanner />
+    <h1>Let's read</h1>
     <div style={imageCSS}>
+       
         {books.map((book)=>(
              <>
-            <img src={book.image} onClick={showDrawer} />
+            <img style={{ width: 240 }} src={book.image} onClick={showDrawer} />
              <Drawer title="Basic Drawer" placement="right" onClose={onClose} open={open} >
                <p>Some contents...</p>
                <p>{book.description}</p>
