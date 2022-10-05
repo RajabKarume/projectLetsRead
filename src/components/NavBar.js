@@ -1,35 +1,28 @@
-import { Breadcrumb, Layout, Menu } from 'antd';
+import { Col, Divider, Row } from 'antd';
 import React from 'react';
+import { NavLink } from "react-router-dom";
 
-const { Header, Content, Footer } = Layout;
+const style: React.CSSProperties = { background: '#0092ff', padding: '8px 0',fontSize: "2em", color:"black" };
 
-const App: React.FC = () => (
-  <Layout className="layout">
-    <Header>
-      <div className="logo" />
-      <Menu
-        theme="dark"
-        mode="horizontal"
-        defaultSelectedKeys={['2']}
-        items={new Array(15).fill(null).map((_, index) => {
-          const key = index + 1;
-          return {
-            key,
-            label: `nav ${key}`,
-          };
-        })}
-      />
-    </Header>
-    <Content style={{ padding: '0 50px' }}>
-      <Breadcrumb style={{ margin: '16px 0' }}>
-        <Breadcrumb.Item>Home</Breadcrumb.Item>
-        <Breadcrumb.Item>List</Breadcrumb.Item>
-        <Breadcrumb.Item>App</Breadcrumb.Item>
-      </Breadcrumb>
-      <div className="site-layout-content">Content</div>
-    </Content>
-    <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
-  </Layout>
+const NavBar: React.FC = () => (
+  <>
+    <Divider orientation="left"></Divider>
+    <Row gutter={16}>
+      <Col className="gutter-row" span={6}>
+        <NavLink to="/" exact style={style}>Home</NavLink>
+      </Col>
+      <Col className="gutter-row" span={6}>
+        <NavLink to="/books" exact style={style}>Books</NavLink>
+      </Col>
+      <Col className="gutter-row" span={6}>
+        <NavLink to="/authors" style={style}>Authors</NavLink>
+      </Col>
+      <Col className="gutter-row" span={6}>
+        <NavLink to="/feedback" style={style}>FeedBack</NavLink>
+      </Col>
+    </Row>
+
+  </>
 );
 
-export default App;
+export default NavBar;
