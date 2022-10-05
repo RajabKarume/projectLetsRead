@@ -2,7 +2,7 @@ import { Button, Drawer } from 'antd';
 import React, { useState } from 'react';
 import Homebanner from './HomeBanner';
 
-const App: React.FC = ({books}) => {
+const App: React.FC = ({book, title, image, description, id, author}) => {
   const [open, setOpen] = useState(false);
 
   const showDrawer = () => {
@@ -27,20 +27,14 @@ const App: React.FC = ({books}) => {
 
   return (
     <>
-    <Homebanner />
-    <h1>Let's read</h1>
     <div style={imageCSS}>
-       
-        {books.map((book)=>(
-             <>
-            <img style={{ width: 240 }} src={book.image} onClick={showDrawer} />
-             <Drawer title="Basic Drawer" placement="right" onClose={onClose} open={open} >
-               <p>Some contents...</p>
-               <p>{book.description}</p>
-               <p>Some contents...</p>
+            <img style={{ width: 240 }} src={image} onClick={showDrawer} />
+            <Button>Add to wish list</Button>
+             <Drawer title={title} placement="right" onClose={onClose} open={open} >
+               <h1>{title}</h1>
+               <p>{description}</p>
+               <p>{author.name}</p>
              </Drawer>
-           </>
-        ))}
    
     </div>
     </>

@@ -15,15 +15,19 @@ const App: React.FC = () => {
   const onClose = () => {
     setOpen(false);
   };
+  const sizeOfText = {
+    fontSize:"40px"
+  }
 
   return (
-    <>
-        <Homebanner />
-      <Button type="primary" onClick={showDrawer} icon={<PlusOutlined />}>
-        Add comment
+ 
+        <>
+        <div style={{paddingTop:"50px"}}/>
+      <Button type="primary" style={{width:"1000px", height:"100px", fontSize:"40px"}}onClick={showDrawer} icon={<PlusOutlined />}>
+        Add FeedBack
       </Button>
       <Drawer
-        title="Create a new account"
+        title="Give us your feedback on any book you have read"
         width={720}
         onClose={onClose}
         open={open}
@@ -42,47 +46,34 @@ const App: React.FC = () => {
             <Col span={12}>
               <Form.Item
                 name="name"
-                label="Name"
+                label="Reader's Name"
                 rules={[{ required: true, message: 'Please enter user name' }]}
               >
-                <Input placeholder="Please enter user name" />
+                <Input placeholder="Please enter your name" />
               </Form.Item>
             </Col>
             <Col span={12}>
               <Form.Item
-                name="url"
-                label="Url"
+                name="Author"
+                label="Author"
                 rules={[{ required: true, message: 'Please enter url' }]}
               >
                 <Input
                   style={{ width: '100%' }}
-                  addonBefore="http://"
-                  addonAfter=".com"
                   placeholder="Please enter url"
                 />
               </Form.Item>
             </Col>
           </Row>
           <Row gutter={16}>
-            <Col span={12}>
-              <Form.Item
-                name="owner"
-                label="Owner"
-                rules={[{ required: true, message: 'Please select an owner' }]}
-              >
-                <Select placeholder="Please select an owner">
-                  <Option value="xiao">Xiaoxiao Fu</Option>
-                  <Option value="mao">Maomao Zhou</Option>
-                </Select>
-              </Form.Item>
-            </Col>
+            
             <Col span={12}>
               <Form.Item
                 name="type"
-                label="Type"
+                label="Thoughts"
                 rules={[{ required: true, message: 'Please choose the type' }]}
               >
-                <Select placeholder="Please choose the type">
+                <Select placeholder="Did you like it">
                   <Option value="private">Liked It</Option>
                   <Option value="public">Didn't like it</Option>
                 </Select>
@@ -94,8 +85,8 @@ const App: React.FC = () => {
             <Col span={12}>
               <Form.Item
                 name="dateTime"
-                label="DateTime"
-                rules={[{ required: true, message: 'Please choose the dateTime' }]}
+                label="Book Recommendation"
+                rules={[{ required: true, message: "Recomend a book to us" }]}
               >
                 <DatePicker.RangePicker
                   style={{ width: '100%' }}
@@ -108,7 +99,7 @@ const App: React.FC = () => {
             <Col span={24}>
               <Form.Item
                 name="description"
-                label="Description"
+                label="Give us your thought"
                 rules={[
                   {
                     required: true,
@@ -122,7 +113,9 @@ const App: React.FC = () => {
           </Row>
         </Form>
       </Drawer>
-    </>
+      <div/>
+      </>
+    
   );
 };
 

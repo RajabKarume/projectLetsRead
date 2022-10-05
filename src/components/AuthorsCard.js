@@ -19,7 +19,6 @@ const arrange = {
 const AuthorsCard: React.FC = ({books}) =>(
     
     <>
-    < Homebanner />
     <div style={arrange}>
     {books.map((book)=>(
          <Card
