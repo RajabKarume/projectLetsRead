@@ -4,7 +4,7 @@ import Homebanner from "./HomeBanner";
 import { useState, useEffect } from 'react';
 import BookCard from "./BookCard"
 
-export default function BookHome({books}){
+export default function BookHome({books, setBooks, handleclick}){
     const imageCSS = {
         width: "100%",
         maxWidth: "1240px",
@@ -24,7 +24,7 @@ export default function BookHome({books}){
             <h1>Let's read</h1>
             <div style={imageCSS} >
                 {books.map((book)=>(
-                        < BookCard title={book.tittle} key={book.id} image={book.image} description={book.description} id={book.id} author={book.authors} />
+                        < BookCard book={book} key={book.id} handleclick={handleclick} id={book.id}/>
                 ))}
             </div>
 

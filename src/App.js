@@ -1,10 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import BookHome from './components/BookHome';
 import NavBar from "./components/NavBar"
 import { BrowserRouter, Route, Routes, NavLink } from "react-router-dom";
 import { useState, useEffect } from 'react';
-import BookCard from './components/BookCard';
 import AuthorsCard from './components/AuthorsCard';
 import FeedBack from './components/FeedBack';
 import Homebanner from './components/HomeBanner';
@@ -23,17 +21,18 @@ function App() {
     .then((data)=>setBooks(data))
 },[])
 
-const handleclick = (book)=>{
-  if (isClicked=== true){
-     setMyBooks([...myBooks, book])
-  }else{
+  const handleclick = (book)=>{
+    if (isClicked=== true){
+      setMyBooks([...myBooks, book])
+    }else{
+      
+      const arr = myBooks.filter((mybook) => mybook !== book);
+      setMyBooks(arr)}
     
-    const arr = myBooks.filter((mybook) => mybook !== book);
-    setMyBooks(arr)}
-  
-  setIsClicked(isClicked)
-}
+    setIsClicked(isClicked)
+  }
   console.log(books)
+  console.log(myBooks)
   return (
     <div className="App">
       <div>
@@ -42,7 +41,7 @@ const handleclick = (book)=>{
           <Homebanner />
           <NavBar />
           <Routes>
-            <Route path="/" element={<BookHome books={books} />} />
+            <Route path="/" element={<BookHome books={books} setBooks={setBooks} key={books.id} handleclick={handleclick} />} />
             <Route path="/wishlist" element={<WishList myBooks={myBooks} setMyBooks={setMyBooks} handleclick={handleclick} key={books.id} />} />
             <Route path="/authors" element={<AuthorsCard books={books}/>} />
             <Route path="/feedback" element={<FeedBack />} />
