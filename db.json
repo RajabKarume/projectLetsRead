@@ -1,0 +1,979 @@
+{
+  "books":[
+    {
+      "id": 1342,
+      "title": "Pride and Prejudice",
+      "image": "https://almabooks.com/wp-content/uploads/2016/10/9781847493699.jpg",
+      "description": "Pride and Prejudice follows the turbulent relationship between Elizabeth Bennet, the daughter of a country gentleman, and Fitzwilliam Darcy, a rich aristocratic landowner. They must overcome the titular sins of pride and prejudice in order to fall in love and marry.",
+      "authors": [
+        {
+          "name": "Austen, Jane",
+          "birth_year": 1775,
+          "death_year": 1817
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Courtship -- Fiction",
+        "Domestic fiction",
+        "England -- Fiction",
+        "Love stories",
+        "Sisters -- Fiction",
+        "Social classes -- Fiction",
+        "Young women -- Fiction"
+      ],
+      "bookshelves": [
+        "Best Books Ever Listings",
+        "Harvard Classics"
+      ],
+      "languages": [
+        "en"
+      ]
+      
+    },
+    {
+      "id": 84,
+      "title": "Frankenstein; Or, The Modern Prometheus",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71Fr1X9hX4L.jpg",
+      "description": "The story is told by an English explorer in the Arctic who assists Victor Frankenstein on the final leg of his chase at the end of the novel. Frankenstein is a talented young medical student who strikes upon the secret of endowing life to the dead. He becomes obsessed with the idea that he might make a man. The resulting creature is lonely and miserable; he is an outcast who seeks murderous revenge for his condition. The creature flees, and Frankenstein pursues him. It is at this point that Frankenstein meets the explorer and recounts his story, dying soon after. The novel has been filmed numerous times, but none has effectively conveyed the stark horror and philosophical acuity of the novel.",
+      "authors": [
+        {
+          "name": "Shelley, Mary Wollstonecraft",
+          "birth_year": 1797,
+          "death_year": 1851
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Frankenstein's monster (Fictitious character) -- Fiction",
+        "Frankenstein, Victor (Fictitious character) -- Fiction",
+        "Gothic fiction",
+        "Horror tales",
+        "Monsters -- Fiction",
+        "Science fiction",
+        "Scientists -- Fiction"
+      ],
+      "bookshelves": [
+        "Gothic Fiction",
+        "Movie Books",
+        "Precursors of Science Fiction",
+        "Science Fiction by Women"
+      ],
+      "languages": [
+        "en"
+      ]
+      
+    },
+    {
+      "id": 2641,
+      "title": "A Room with a View",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8e/A_Room_with_a_View.jpg",
+      "description": "The book depicts Lucy's struggles as she emerges as her own woman, growing from indecision to fulfillment. She struggles between strict, old-fashioned Victorian values and newer, more liberal mores. In this struggle Lucy's own idea of what is true evolves and matures. Her trip to Italy opens her sheltered eyes to ideas and people unlike those she has known growing up in the English countryside. She also notices how freely Italian classes seem to mix, and realizes that the social boundaries she has always regarded as fixed are actually arbitrary. Her experience with the Emersons shows her that there can be beauty in the things that are considered improper, and Charlotte's betrayal shows her that propriety is not always the best judge of what is true.",
+      "authors": [
+        {
+          "name": "Forster, E. M. (Edward Morgan)",
+          "birth_year": 1879,
+          "death_year": 1970
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "British -- Italy -- Fiction",
+        "England -- Fiction",
+        "Florence (Italy) -- Fiction",
+        "Humorous stories",
+        "Young women -- Fiction"
+      ],
+      "bookshelves": [
+        "Italy"
+      ],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 145,
+      "title": "Middlemarch",
+      "image": "https://m.media-amazon.com/images/I/81C9P6xJUwL.jpg",
+      "description": "Middlemarch, in full Middlemarch: A Study of Provincial Life, novel by George Eliot (pseudonym of Mary Ann Evans), published in eight parts in 1871–72 and also published in four volumes in 1872. It is considered to be Eliot’s masterpiece. The realist work is a study of every class of society in the town of Middlemarch—from the landed gentry and clergy to the manufacturers and professional men, farmers, and labourers. The focus, however, is on the thwarted idealism of its two principal characters, Dorothea Brooke and Tertius Lydgate, both of whom marry disastrously.",
+      "authors": [
+        {
+          "name": "Eliot, George",
+          "birth_year": 1819,
+          "death_year": 1880
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Bildungsromans",
+        "City and town life -- Fiction",
+        "Didactic fiction",
+        "Domestic fiction",
+        "England -- Fiction",
+        "Love stories",
+        "Married people -- Fiction",
+        "Young women -- Fiction"
+      ],
+      "bookshelves": [
+        "Best Books Ever Listings",
+        "Historical Fiction"
+      ],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 394,
+      "title": "Cranford",
+      "image": "https://kbimages1-a.akamaihd.net/2a1155d8-2e4e-410b-affc-cf0a28b30b4a/1200/1200/False/cranford-88.jpg",
+      "description": "“A sensitive and moving portrait of life and manners in an English country village during the 1830s, Cranford recounts the events and activities in the lives of a group of spinsters and widows who struggle in genteel poverty to maintain their standards of propriety, decency, and kindness.”",
+      "authors": [
+        {
+          "name": "Gaskell, Elizabeth Cleghorn",
+          "birth_year": 1810,
+          "death_year": 1865
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "England -- Fiction",
+        "Female friendship -- Fiction",
+        "Older women -- Fiction",
+        "Pastoral fiction",
+        "Sisters -- Fiction",
+        "Villages -- Fiction"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 67979,
+      "title": "The Blue Castle: a novel",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442108651l/95693.jpg",
+      "description": "29-year old Valancy Stirling takes stock of her uneventful life.  All she has ever known is a grey, dull existence with no real love of her own.  Her favorite fantasy is to dream of her very own blue castle in which everything is just as she would wish and she entertains a string of handsome suitors.  But then she gets a shocking medical diagnosis that changes her perspective on everything.  What will she do with the rest of her life?",
+      "authors": [
+        {
+          "name": "Montgomery, L. M. (Lucy Maud)",
+          "birth_year": 1874,
+          "death_year": 1942
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Canada -- History -- 1914-1945 -- Fiction",
+        "Choice -- Fiction",
+        "Love -- Fiction",
+        "Romance fiction",
+        "Self-actualization (Psychology) -- Fiction",
+        "Single women -- Fiction",
+        "Young adult fiction"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 1661,
+      "title": "The Adventures of Sherlock Holmes",
+      "image": "https://almabooks.com/wp-content/uploads/2016/10/adventures-of-Sherlock-Holmes.jpg",
+      "description": "Holmes is a collection of twelve short stories by British writer Arthur Conan Doyle, first published on 14 October 1892. It contains the earliest short stories featuring the consulting detective Sherlock Holmes, which had been published in twelve monthly issues of The Strand Magazine from July 1891 to June 1892. The stories are collected in the same sequence, which is not supported by any fictional chronology. The only characters common to all twelve are Holmes and Dr. Watson and all are related in first-person narrative from Watson's point of view.",
+      "authors": [
+        {
+          "name": "Doyle, Arthur Conan",
+          "birth_year": 1859,
+          "death_year": 1930
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Detective and mystery stories, English",
+        "Holmes, Sherlock (Fictitious character) -- Fiction",
+        "Private investigators -- England -- Fiction"
+      ],
+      "bookshelves": [
+        "Banned Books from Anne Haight's list",
+        "Contemporary Reviews",
+        "Detective Fiction"
+      ],
+      "languages": [
+        "en"
+      ]
+    
+    },
+    {
+      "id": 11,
+      "title": "Alice's Adventures in Wonderland",
+      "image": "https://www.makaobora.co.ke/bora/wp-content/uploads/2020/04/alice.jpg",
+      "description": "Alice's Adventures in Wonderland by Lewis Carroll is a story about Alice who falls down a rabbit hole and lands into a fantasy world that is full of weird, wonderful people and animals. It is classic children's book that is also popular with adults. Personally, at 16, I found the book strange and uninteresting. However if I was 8-14 I would have loved the fantastic fantasy world Carroll creates. I never expected the events that happened because they were bizarre and unpredictable. I loved the Cheshire cat's wit and intelligence. I also love the hatter because his eccentric personality reminded me of the eccentric people I know. My favourite part was when Alice met the caterpillar, this was because of his ambiguous conversation with Alice.",
+      "authors": [
+        {
+          "name": "Carroll, Lewis",
+          "birth_year": 1832,
+          "death_year": 1898
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Alice (Fictitious character from Carroll) -- Juvenile fiction",
+        "Children's stories",
+        "Fantasy fiction",
+        "Imaginary places -- Juvenile fiction"
+      ],
+      "bookshelves": [
+        "Children's Literature"
+      ],
+      "languages": [
+        "en"
+      ]
+      
+    },
+    {
+      "id": 1952,
+      "title": "The Yellow Wallpaper",
+      "image": "https://www.gutenberg.org/files/1952/1952-h/images/cover.jpg",
+      "description": "The Yellow Wallpaper details the deterioration of a woman's mental health while she is on a rest cure on a rented summer country estate with her family. Her obsession with the yellow wallpaper in her bedroom marks her descent into psychosis from her depression throughout the story.",
+      "authors": [
+        {
+          "name": "Gilman, Charlotte Perkins",
+          "birth_year": 1860,
+          "death_year": 1935
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Feminist fiction",
+        "Married women -- Psychology -- Fiction",
+        "Mentally ill women -- Fiction",
+        "Psychological fiction",
+        "Sex role -- Fiction"
+      ],
+      "bookshelves": [
+        "Gothic Fiction"
+      ],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 345,
+      "title": "Dracula",
+      "image": "https://npr.brightspotcdn.com/dims4/default/3e60fe4/2147483647/strip/true/crop/314x500+0+0/resize/880x1401!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fwkar%2Ffiles%2Fdracula_book_cover.jpg",
+      "description": "Dracula comprises journal entries, letters, and telegrams written by the main characters. It begins with Jonathan Harker, a young English lawyer, as he travels to Transylvania. Harker plans to meet with Count Dracula, a client of his firm, in order to finalize a property transaction. When he arrives in Transylvania, the locals react with terror after he discloses his destination: Castle Dracula. Though this unsettles him slightly, he continues onward. The ominous howling of wolves rings through the air as he arrives at the castle. When Harker meets Dracula, he acknowledges that the man is pale, gaunt, and strange. Harker becomes further concerned when, after Harker cuts himself while shaving, Dracula lunges at his throat. Soon after, Harker is seduced by three female vampires, from whom he barely escapes. He then learns Draculas secret—that he is a vampire and survives by drinking human blood. Harker correctly assumes that he is to be the counts next victim. He attacks the count, but his efforts are unsuccessful. Dracula leaves Harker trapped in the castle and then, along with 50 boxes of dirt, departs for England.",
+      "authors": [
+        {
+          "name": "Stoker, Bram",
+          "birth_year": 1847,
+          "death_year": 1912
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Dracula, Count (Fictitious character) -- Fiction",
+        "Epistolary fiction",
+        "Gothic fiction",
+        "Horror tales",
+        "Transylvania (Romania) -- Fiction",
+        "Vampires -- Fiction",
+        "Whitby (England) -- Fiction"
+      ],
+      "bookshelves": [
+        "Gothic Fiction",
+        "Horror",
+        "Movie Books",
+        "Mystery Fiction"
+      ],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 9097,
+      "title": "Robert's Rules of Order: Pocket Manual of Rules of Order for Deliberative Assemblies",
+      "image": "https://kbimages1-a.akamaihd.net/5834f35d-bb5d-4472-820d-779fe5275a39/1200/1200/False/robert-s-rules-of-order-4.jpg",
+      "description": "There appears to be much needed a work on parliamentary law based- in its general principles- upon the rules and practice of Congress- and adapted in its details to the use of ordinary societies.' (Excerpt from Preface)",
+      "authors": [
+        {
+          "name": "Robert, Henry M. (Henry Martyn)",
+          "birth_year": 1837,
+          "death_year": 1923
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Parliamentary practice"
+      ],
+      "bookshelves": [
+        "Reference"
+      ],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 174,
+      "title": "The Picture of Dorian Gray",
+      "image": "https://kbimages1-a.akamaihd.net/5524880b-d8a4-4785-a328-42ddadfa6394/1200/1200/False/the-picture-of-dorian-gray-a-to-z-classics.jpg",
+      "description": "In the stately London home of his aunt, Lady Brandon, the well-known artist Basil Hallward meets Dorian Gray. Dorian is a cultured, wealthy, and impossibly beautiful young man who immediately captures Basils artistic imagination. Dorian sits for several portraits, and Basil often depicts him as an ancient Greek hero or a mythological figure. When the novel opens, the artist is completing his first portrait of Dorian as he truly is, but, as he admits to his friend Lord Henry Wotton, the painting disappoints him because it reveals too much of his feeling for his subject. Lord Henry, a famous wit who enjoys scandalizing his friends by celebrating youth, beauty, and the selfish pursuit of pleasure, disagrees, claiming that the portrait is Basils masterpiece. Dorian arrives at the studio, and Basil reluctantly introduces him to Lord Henry, who he fears will have a damaging influence on the impressionable, young Dorian.",
+      "authors": [
+        {
+          "name": "Wilde, Oscar",
+          "birth_year": 1854,
+          "death_year": 1900
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Appearance (Philosophy) -- Fiction",
+        "Conduct of life -- Fiction",
+        "Didactic fiction",
+        "Great Britain -- History -- Victoria, 1837-1901 -- Fiction",
+        "London (England) -- History -- 1800-1950 -- Fiction",
+        "Paranormal fiction",
+        "Portraits -- Fiction",
+        "Supernatural -- Fiction"
+      ],
+      "bookshelves": [
+        "Gothic Fiction",
+        "Movie Books"
+      ],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 1080,
+      "title": "A Modest Proposal: For preventing the children of poor people in Ireland, from being a burden on their parents or country, and for making them beneficial to the publick",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81M68hkqlQL.jpg",
+      "description": "A Modest Proposal For preventing the Children of Poor People From being a Burthen to Their Parents or Country, and For making them Beneficial to the Publick, commonly referred to as A Modest Proposal, is a Juvenalian satirical essay written and published anonymously by Jonathan Swift in 1729.",
+      "authors": [
+        {
+          "name": "Swift, Jonathan",
+          "birth_year": 1667,
+          "death_year": 1745
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Ireland -- Politics and government -- 18th century -- Humor",
+        "Political satire, English",
+        "Religious satire, English"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 2701,
+      "title": "Moby Dick; Or, The Whale",
+      "image": "https://m.media-amazon.com/images/I/91DhazpQXML.jpg",
+      "description": "Moby-Dick; or, The Whale is an 1851 novel by American writer Herman Melville. The book is the sailor Ishmael's narrative of the obsessive quest of Ahab, captain of the whaling ship Pequod, for revenge against Moby Dick, the giant white sperm whale that on the ship's previous voyage bit off Ahab's leg at the knee.",
+      "authors": [
+        {
+          "name": "Melville, Herman",
+          "birth_year": 1819,
+          "death_year": 1891
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Adventure stories",
+        "Ahab, Captain (Fictitious character) -- Fiction",
+        "Mentally ill -- Fiction",
+        "Psychological fiction",
+        "Sea stories",
+        "Ship captains -- Fiction",
+        "Whales -- Fiction",
+        "Whaling -- Fiction",
+        "Whaling ships -- Fiction"
+      ],
+      "bookshelves": [
+        "Best Books Ever Listings"
+      ],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 98,
+      "title": "A Tale of Two Cities",
+      "image": "https://www.makaobora.co.ke/bora/wp-content/uploads/2020/04/a-tale-of-two-cities-210.jpg",
+      "description": "The novel tells the story of the French Doctor Manette, his 18-year-long imprisonment in the Bastille in Paris, and his release to live in London with his daughter Lucie whom he had never met. The story is set against the conditions that led up to the French Revolution and the Reign of Terror.",
+      "authors": [
+        {
+          "name": "Dickens, Charles",
+          "birth_year": 1812,
+          "death_year": 1870
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "British -- France -- Paris -- Fiction",
+        "Executions and executioners -- Fiction",
+        "France -- History -- Revolution, 1789-1799 -- Fiction",
+        "French -- England -- London -- Fiction",
+        "Historical fiction",
+        "London (England) -- History -- 18th century -- Fiction",
+        "Lookalikes -- Fiction",
+        "Paris (France) -- History -- 1789-1799 -- Fiction",
+        "War stories"
+      ],
+      "bookshelves": [
+        "Historical Fiction"
+      ],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 64317,
+      "title": "The Great Gatsby",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg",
+      "description": "The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan.",
+      "authors": [
+        {
+          "name": "Fitzgerald, F. Scott (Francis Scott)",
+          "birth_year": 1896,
+          "death_year": 1940
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "First loves -- Fiction",
+        "Long Island (N.Y.) -- Fiction",
+        "Married women -- Fiction",
+        "Psychological fiction",
+        "Rich people -- Fiction"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 43,
+      "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+      "image": "https://almabooks.com/wp-content/uploads/2016/10/9781847493781.jpg",
+      "description": "Dr Jekyll is a kind, well-respected and intelligent scientist who meddles with the darker side of science, as he wants to bring out his 'second' nature. He does this through transforming himself into Mr Hyde - his evil alter ego who doesn't repent or accept responsibility for his evil crimes and ways.",
+      "authors": [
+        {
+          "name": "Stevenson, Robert Louis",
+          "birth_year": 1850,
+          "death_year": 1894
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Horror tales",
+        "London (England) -- Fiction",
+        "Multiple personality -- Fiction",
+        "Physicians -- Fiction",
+        "Psychological fiction",
+        "Science fiction",
+        "Self-experimentation in medicine -- Fiction"
+      ],
+      "bookshelves": [
+        "Horror",
+        "Movie Books",
+        "Precursors of Science Fiction"
+      ],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 2542,
+      "title": "A Doll's House : a play",
+      "image": "https://www.stagerights.com/media/images/Dolls_House_for_web.2e16d0ba.fill-600x900-c100.jpg",
+      "description": "Written in 1879 by Norwegian playwright Henrik Ibsen, A Doll's House is a three-act play about a housewife who becomes disillusioned and dissatisfied with her condescending husband. The play raises universal issues and questions that are applicable to societies worldwide.",
+      "authors": [
+        {
+          "name": "Ibsen, Henrik",
+          "birth_year": 1828,
+          "death_year": 1906
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Man-woman relationships -- Drama",
+        "Marriage -- Drama",
+        "Norwegian drama -- Translations into English",
+        "Wives -- Drama"
+      ],
+      "bookshelves": [
+        "Best Books Ever Listings"
+      ],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 1232,
+      "title": "The Prince",
+      "image": "https://theforeignpolicyanalyst.files.wordpress.com/2012/11/the-prince.jpg",
+      "description": "Book Summary. The Prince is an extended analysis of how to acquire and maintain political power. It includes 26 chapters and an opening dedication to Lorenzo de Medici. The dedication declares Machiavelli's intention to discuss in plain language the conduct of great men and the principles of princely government.",
+      "authors": [
+        {
+          "name": "Machiavelli, Niccolò",
+          "birth_year": 1469,
+          "death_year": 1527
+        }
+      ],
+      "translators": [
+        {
+          "name": "Marriott, W. K. (William Kenaz)",
+          "birth_year": null,
+          "death_year": 1927
+        }
+      ],
+      "subjects": [
+        "Political ethics -- Early works to 1800",
+        "Political science -- Philosophy -- Early works to 1800",
+        "State, The -- Early works to 1800"
+      ],
+      "bookshelves": [
+        "Banned Books from Anne Haight's list",
+        "Harvard Classics",
+        "Philosophy",
+        "Politics"
+      ],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 6130,
+      "title": "The Iliad",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71CdBsMx42L.jpg",
+      "description": "The Iliad is an epic poem attributed to the ancient Greek writer Homer. The story, set during the Trojan War, begins when Agamemnon refuses to return Chryseis to her father, angering the gods. When he is forced to release her, he takes Briseis instead, angering Achilles and leading him to refuse to fight.",
+      "authors": [
+        {
+          "name": "Homer",
+          "birth_year": -750,
+          "death_year": -650
+        }
+      ],
+      "translators": [
+        {
+          "name": "Pope, Alexander",
+          "birth_year": 1688,
+          "death_year": 1744
+        }
+      ],
+      "subjects": [
+        "Achilles (Mythological character) -- Poetry",
+        "Classical literature",
+        "Epic poetry, Greek -- Translations into English",
+        "Trojan War -- Poetry"
+      ],
+      "bookshelves": [
+        "Classical Antiquity"
+      ],
+      "languages": [
+        "en"
+      ]
+      
+    },
+    {
+      "id": 2591,
+      "title": "Grimms' Fairy Tales",
+      "image": "https://kbimages1-a.akamaihd.net/9e852209-e0c3-47dc-a783-6ca938147507/1200/1200/False/grimms-fairy-tales-37.jpg",
+      "description": "A tailor exults when he's able to kill seven flies with one swat. He decides to seek his fortune. After tricking two giants into killing each other, he wins the hand of the king's daughter. The king doesn't like this idea and sets the tailor more feats, all of which he accomplishes. But when he and the daughter marry, she is horrified to learn that he was once a tailor. She plots to have him kidnapped, but he foils the plan. The story says the tailor remains a king, but it does not address what happens to the tailor and his bride's marriage.",
+      "authors": [
+        {
+          "name": "Grimm, Wilhelm",
+          "birth_year": 1786,
+          "death_year": 1859
+        },
+        {
+          "name": "Grimm, Jacob",
+          "birth_year": 1785,
+          "death_year": 1863
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Fairy tales -- Germany"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 5200,
+      "title": "Metamorphosis",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1646444605i/485894.jpg",
+      "description": "One of Kafka's best-known works, Metamorphosis tells the story of salesman Gregor Samsa, who wakes one morning to find himself inexplicably transformed into a huge insect (ungeheueres Ungeziefer, lit. monstrous vermin) and subsequently struggles to adjust to this new condition.",
+      "authors": [
+        {
+          "name": "Kafka, Franz",
+          "birth_year": 1883,
+          "death_year": 1924
+        }
+      ],
+      "translators": [
+        {
+          "name": "Wyllie, David (Translator)",
+          "birth_year": null,
+          "death_year": null
+        }
+      ],
+      "subjects": [
+        "Metamorphosis -- Fiction",
+        "Psychological fiction"
+      ],
+      "bookshelves": [
+        "Horror"
+      ],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 408,
+      "title": "The Souls of Black Folk",
+      "image": "https://www.makaobora.co.ke/bora/wp-content/uploads/2020/04/souls-of-black-folks.jpg",
+      "description": "W. E. B. Du Bois' The Souls of Black Folk (1903) is a seminal work in African American literature and an American classic. In this work Du Bois proposes that the problem of the Twentieth Century is the problem of the color-line. His concepts of life behind the veil of race and the resulting double-consciousness, this sense of always looking at one's self through the eyes of others, have become touchstones for thinking about race in America. In addition to these enduring concepts, Souls offers an assessment of the progress of the race, the obstacles to that progress, and the possibilities for future progress as the nation entered the twentieth century.",
+      "authors": [
+        {
+          "name": "Du Bois, W. E. B. (William Edward Burghardt)",
+          "birth_year": 1868,
+          "death_year": 1963
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "African Americans"
+      ],
+      "bookshelves": [
+        "African American Writers"
+      ],
+      "languages": [
+        "en"
+      ]
+      
+    },
+    {
+      "id": 4300,
+      "title": "Ulysses",
+      "image": "",
+      "description": "",
+      "authors": [
+        {
+          "name": "Joyce, James",
+          "birth_year": 1882,
+          "death_year": 1941
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Alienation (Social psychology) -- Fiction",
+        "Artists -- Fiction",
+        "City and town life -- Fiction",
+        "Domestic fiction",
+        "Dublin (Ireland) -- Fiction",
+        "Epic literature",
+        "Jewish men -- Fiction",
+        "Male friendship -- Fiction",
+        "Married people -- Fiction",
+        "Psychological fiction"
+      ],
+      "bookshelves": [
+        "Banned Books List from the American Library Association",
+        "Banned Books from Anne Haight's list",
+        "Best Books Ever Listings",
+        "Erotic Fiction"
+      ],
+      "languages": [
+        "en"
+      ]
+      
+    },
+    {
+      "id": 1400,
+      "title": "Great Expectations",
+      "image": "https://static.wikia.nocookie.net/dresdenfiles/images/d/d8/Great_Expectations.jpg/revision/latest?cb=20190425174749",
+      "description": "Great Expectations follows the childhood and young adult years of Pip a blacksmith's apprentice in a country village. He suddenly comes into a large fortune (his great expectations) from a mysterious benefactor and moves to London where he enters high society.",
+      "authors": [
+        {
+          "name": "Dickens, Charles",
+          "birth_year": 1812,
+          "death_year": 1870
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Benefactors -- Fiction",
+        "Bildungsromans",
+        "England -- Fiction",
+        "Ex-convicts -- Fiction",
+        "Man-woman relationships -- Fiction",
+        "Orphans -- Fiction",
+        "Revenge -- Fiction",
+        "Young men -- Fiction"
+      ],
+      "bookshelves": [
+        "Best Books Ever Listings"
+      ],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 1260,
+      "title": "Jane Eyre: An Autobiography",
+      "image": "https://www.makaobora.co.ke/bora/wp-content/uploads/2020/04/Jane-Eyre.jpg",
+      "description": "The novel follows the story of Jane, a seemingly plain and simple girl as she battles through life's struggles. Jane has many obstacles in her life - her cruel and abusive Aunt Reed, the grim conditions at Lowood school, her love for Rochester and Rochester's marriage to Bertha.",
+      "authors": [
+        {
+          "name": "Brontë, Charlotte",
+          "birth_year": 1816,
+          "death_year": 1855
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Bildungsromans",
+        "Charity-schools -- Fiction",
+        "Country homes -- Fiction",
+        "England -- Fiction",
+        "Fathers and daughters -- Fiction",
+        "Governesses -- Fiction",
+        "Love stories",
+        "Married people -- Fiction",
+        "Mentally ill women -- Fiction",
+        "Orphans -- Fiction",
+        "Young women -- Fiction"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 205,
+      "title": "Walden, and On The Duty Of Civil Disobedience",
+      "image": "https://m.media-amazon.com/images/I/41PxxwWWCjL.jpg",
+      "description": "The novel details his journey of self-discovery, his thoughts on carefully managing finances and his musings on society as a whole. Civil Disobedience is a short essay that was originally published in 1849 under the title, Resistance to Civil Government (Civil Disobedience)",
+      "authors": [
+        {
+          "name": "Thoreau, Henry David",
+          "birth_year": 1817,
+          "death_year": 1862
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Authors, American -- 19th century -- Biography",
+        "Civil disobedience",
+        "Government, Resistance to",
+        "Natural history -- Massachusetts -- Walden Woods",
+        "Solitude",
+        "Thoreau, Henry David, 1817-1862 -- Homes and haunts -- Massachusetts -- Walden Woods",
+        "Walden Woods (Mass.) -- Social life and customs",
+        "Wilderness areas -- Massachusetts -- Walden Woods"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ]
+      
+    },
+    {
+      "id": 2554,
+      "title": "Crime and Punishment",
+      "image": "https://kbimages1-a.akamaihd.net/c8f66724-16c7-4e30-ab42-2e205435eb20/1200/1200/False/crime-and-punishment-by-fyodor-dostoyevsky.jpg",
+      "description": "Crime and Punishment follows the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished ex-student in Saint Petersburg who plans to kill an unscrupulous pawnbroker, an old woman who stores money and valuable objects in her flat.",
+      "authors": [
+        {
+          "name": "Dostoyevsky, Fyodor",
+          "birth_year": 1821,
+          "death_year": 1881
+        }
+      ],
+      "translators": [
+        {
+          "name": "Garnett, Constance",
+          "birth_year": 1861,
+          "death_year": 1946
+        }
+      ],
+      "subjects": [
+        "Crime -- Psychological aspects -- Fiction",
+        "Detective and mystery stories",
+        "Murder -- Fiction",
+        "Psychological fiction",
+        "Saint Petersburg (Russia) -- Fiction"
+      ],
+      "bookshelves": [
+        "Best Books Ever Listings",
+        "Crime Fiction",
+        "Harvard Classics"
+      ],
+      "languages": [
+        "en"
+      ]
+      
+    },
+    {
+      "id": 16328,
+      "title": "Beowulf: An Anglo-Saxon Epic Poem",
+      "image": "https://m.media-amazon.com/images/I/51Q+X7AxzyL.jpg",
+      "description": "The protagonist Beowulf, a hero of the Geats, comes to the aid of Hrothgar, king of the Danes, whose great hall, Heorot, is plagued by the monster Grendel. Beowulf kills Grendel with his bare hands, then kills Grendel's mother with a giant's sword that he found in her lair.",
+      "authors": [{
+        "name": "Hall, J. Lesslie",
+        "birth_year": 1856,
+        "death_year": 1928
+      }],
+      "translators": [
+        {
+          "name": "Hall, J. Lesslie (John Lesslie)",
+          "birth_year": 1856,
+          "death_year": 1928
+        }
+      ],
+      "subjects": [
+        "Dragons -- Poetry",
+        "Epic poetry, English (Old)",
+        "Monsters -- Poetry"
+      ],
+      "bookshelves": [
+        "Poetry"
+      ],
+      "languages": [
+        "en"
+      ]
+      
+    },
+    {
+      "id": 46,
+      "title": "A Christmas Carol in Prose; Being a Ghost Story of Christmas",
+      "image": "https://kbimages1-a.akamaihd.net/06fa8c8a-17dd-4836-b39e-54dac8d562a2/1200/1200/False/a-christmas-carol-in-prose-being-a-ghost-story-of-christmas-36.jpg",
+      "description": "A Christmas Carol by Charles Dickens tells the story of Ebenezer Scrooge, an old man who transforms his miserly ways after four ghostly visits one Christmas Eve.",
+      "authors": [
+        {
+          "name": "Dickens, Charles",
+          "birth_year": 1812,
+          "death_year": 1870
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Christmas stories",
+        "Ghost stories",
+        "London (England) -- Fiction",
+        "Misers -- Fiction",
+        "Poor families -- Fiction",
+        "Scrooge, Ebenezer (Fictitious character) -- Fiction",
+        "Sick children -- Fiction"
+      ],
+      "bookshelves": [
+        "Children's Literature",
+        "Christmas"
+      ],
+      "languages": [
+        "en"
+      ]
+     
+    },
+    {
+      "id": 1497,
+      "title": "The Republic",
+      "image": "https://rochemamabolo.files.wordpress.com/2019/12/the-republic-90.jpg",
+      "description": "The Republic by Plato is a text that describes the importance of being just in the world, and by being just, one is happy. It is a text that describes an ideal city and a way through which a just and philosophical governance can create happiness.",
+      "authors": [
+        {
+          "name": "Plato",
+          "birth_year": -428,
+          "death_year": -348
+        }
+      ],
+      "translators": [
+        {
+          "name": "Jowett, Benjamin",
+          "birth_year": 1817,
+          "death_year": 1893
+        }
+      ],
+      "subjects": [
+        "Classical literature",
+        "Justice -- Early works to 1800",
+        "Political science -- Early works to 1800",
+        "Utopias -- Early works to 1800"
+      ],
+      "bookshelves": [
+        "Philosophy"
+      ],
+      "languages": [
+        "en"
+      ]
+      
+    },
+    {
+      "id": 2600,
+      "title": "War and Peace",
+      "image": "data:image/jpeg;base64,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",
+      "description": "War and Peace broadly focuses on Napoleon's invasion of Russia in 1812 and follows three of the most well-known characters in literature: Pierre Bezukhov, the illegitimate son of a count who is fighting for his inheritance and yearning for spiritual fulfillment; Prince Andrei Bolkonsky, who leaves his family behind to ",
+      "authors": [
+        {
+          "name": "Tolstoy, Leo, graf",
+          "birth_year": 1828,
+          "death_year": 1910
+        }
+      ],
+      "translators": [
+        {
+          "name": "Maude, Aylmer",
+          "birth_year": 1858,
+          "death_year": 1938
+        },
+        {
+          "name": "Maude, Louise",
+          "birth_year": 1855,
+          "death_year": 1939
+        }
+      ],
+      "subjects": [
+        "Aristocracy (Social class) -- Russia -- Fiction",
+        "Historical fiction",
+        "Napoleonic Wars, 1800-1815 -- Campaigns -- Russia -- Fiction",
+        "Russia -- History -- Alexander I, 1801-1825 -- Fiction",
+        "War stories"
+      ],
+      "bookshelves": [
+        "Best Books Ever Listings",
+        "Historical Fiction",
+        "Movie Books",
+        "Napoleonic(Bookshelf)",
+        "Opera"
+      ],
+      "languages": [
+        "en"
+      ]
+     
+    }
+  ]
+}
