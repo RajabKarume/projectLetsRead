@@ -69,3 +69,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # projectLetsRead
+created by Rajab Karume 6th October 2022
+# DESCRIPTION
+it
+# DEPLOYMENT SITE
+ww
+#TECHNOLOGIES USED
+The following were used to get the project working
+`reactjs`
+`Bootstrap 5`
+`Ant Design`
+
+# SCREENSHOTS
+
+
+# LICENSE INFORMATION
+
+Copyright (c) 2022, Rajab Karume
