@@ -3,11 +3,10 @@ import BookHome from './components/BookHome';
 import NavBar from "./components/NavBar"
 import { BrowserRouter, Route, Routes, NavLink } from "react-router-dom";
 import { useState, useEffect } from 'react';
-import AuthorsCard from './components/AuthorsCard';
-import FeedBack from './components/FeedBack';
 import Homebanner from './components/HomeBanner';
 import WishList from './components/WishList';
-
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import FeedBack from './components/FeedBack';
 
 function App() {
 
@@ -28,6 +27,7 @@ function App() {
       
       const arr = myBooks.filter((mybook) => mybook !== book);
       setMyBooks(arr)}
+      alert ("Added to wishlist")
     
     setIsClicked(isClicked)
   }
@@ -43,7 +43,6 @@ function App() {
           <Routes>
             <Route path="/" element={<BookHome books={books} setBooks={setBooks} key={books.id} handleclick={handleclick} />} />
             <Route path="/wishlist" element={<WishList myBooks={myBooks} setMyBooks={setMyBooks} handleclick={handleclick} key={books.id} />} />
-            <Route path="/authors" element={<AuthorsCard books={books}/>} />
             <Route path="/feedback" element={<FeedBack />} />
           </Routes>
         </BrowserRouter>,

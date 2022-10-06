@@ -9,7 +9,8 @@
         {
           "name": "Austen, Jane",
           "birth_year": 1775,
-          "death_year": 1817
+          "death_year": 1817,
+          "image": "https://cdn.britannica.com/12/172012-050-A9AFF8AF/Jane-Austen-Cassandra-engraving-portrait-1810.jpg?w=400&h=300&c=crop"
         }
       ],
       "translators": [],
@@ -40,7 +41,8 @@
         {
           "name": "Shelley, Mary Wollstonecraft",
           "birth_year": 1797,
-          "death_year": 1851
+          "death_year": 1851,
+          "image": "https://cdn.britannica.com/55/181055-050-F5C64058/Mary-Wollstonecraft-Shelley-oil-canvas-Richard-Rothwell-1840.jpg?w=400&h=300&c=crop"
         }
       ],
       "translators": [],
@@ -73,7 +75,8 @@
         {
           "name": "Forster, E. M. (Edward Morgan)",
           "birth_year": 1879,
-          "death_year": 1970
+          "death_year": 1970,
+          "image": "http://4.bp.blogspot.com/-QNwZh07nI48/UmkmI_ZZohI/AAAAAAAAml8/J7-10xQnJIY/s1600/forster.jpg"
         }
       ],
       "translators": [],
@@ -101,7 +104,8 @@
         {
           "name": "Eliot, George",
           "birth_year": 1819,
-          "death_year": 1880
+          "death_year": 1880,
+          "image": "https://i.guim.co.uk/img/media/c01341240540e5bead32da2c83f9cdbcc7b8f1c4/0_271_2757_1654/master/2757.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=28588bab23bf49994f396dec8151aa96"
         }
       ],
       "translators": [],
@@ -133,7 +137,8 @@
         {
           "name": "Gaskell, Elizabeth Cleghorn",
           "birth_year": 1810,
-          "death_year": 1865
+          "death_year": 1865, 
+          "image": "https://www.jonkers.co.uk/uploads/cache/00050/00050345/00050345-470x468.jpeg?v=1"
         }
       ],
       "translators": [],
@@ -160,7 +165,8 @@
         {
           "name": "Montgomery, L. M. (Lucy Maud)",
           "birth_year": 1874,
-          "death_year": 1942
+          "death_year": 1942,
+          "image": "data:image/jpeg;base64,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"
         }
       ],
       "translators": [],
@@ -188,7 +194,8 @@
         {
           "name": "Doyle, Arthur Conan",
           "birth_year": 1859,
-          "death_year": 1930
+          "death_year": 1930,
+          "image": "https://sweetcherrypublishing.com/wp-content/uploads/2019/05/Sir_Arthur_Conan_Doyle-1.jpg"
         }
       ],
       "translators": [],
@@ -216,7 +223,8 @@
         {
           "name": "Carroll, Lewis",
           "birth_year": 1832,
-          "death_year": 1898
+          "death_year": 1898,
+          "image": ""
         }
       ],
       "translators": [],
@@ -243,7 +251,8 @@
         {
           "name": "Gilman, Charlotte Perkins",
           "birth_year": 1860,
-          "death_year": 1935
+          "death_year": 1935,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Charlotte_Perkins_Gilman_c._1900.jpg"
         }
       ],
       "translators": [],
@@ -271,7 +280,8 @@
         {
           "name": "Stoker, Bram",
           "birth_year": 1847,
-          "death_year": 1912
+          "death_year": 1912,
+          "image": "https://www.biography.com/.image/t_share/MTE5NTU2MzE2Mzc4NTMxMzM5/bram-stoker-9495731-1-402.jpg"
         }
       ],
       "translators": [],
@@ -304,7 +314,8 @@
         {
           "name": "Robert, Henry M. (Henry Martyn)",
           "birth_year": 1837,
-          "death_year": 1923
+          "death_year": 1923,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Henry_Martyn_Robert.jpg"
         }
       ],
       "translators": [],
@@ -328,7 +339,8 @@
         {
           "name": "Wilde, Oscar",
           "birth_year": 1854,
-          "death_year": 1900
+          "death_year": 1900,
+          "image":"https://upload.wikimedia.org/wikipedia/commons/9/92/Oscar_Wilde_3g07095u-adjust.jpg"
         }
       ],
       "translators": [],
@@ -360,7 +372,8 @@
         {
           "name": "Swift, Jonathan",
           "birth_year": 1667,
-          "death_year": 1745
+          "death_year": 1745,
+          "image": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTgwMjk3OTYwNDc3Njk3OTAw/gettyimages-931271148.jpg"
         }
       ],
       "translators": [],
@@ -384,7 +397,8 @@
         {
           "name": "Melville, Herman",
           "birth_year": 1819,
-          "death_year": 1891
+          "death_year": 1891,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Herman_Melville_by_Joseph_O_Eaton.jpg"
         }
       ],
       "translators": [],
@@ -416,7 +430,8 @@
         {
           "name": "Dickens, Charles",
           "birth_year": 1812,
-          "death_year": 1870
+          "death_year": 1870,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Dickens_Gurney_head.jpg"
         }
       ],
       "translators": [],
@@ -448,7 +463,8 @@
         {
           "name": "Fitzgerald, F. Scott (Francis Scott)",
           "birth_year": 1896,
-          "death_year": 1940
+          "death_year": 1940,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/F_Scott_Fitzgerald_1921.jpg/141px-F_Scott_Fitzgerald_1921.jpg"
         }
       ],
       "translators": [],
@@ -474,7 +490,8 @@
         {
           "name": "Stevenson, Robert Louis",
           "birth_year": 1850,
-          "death_year": 1894
+          "death_year": 1894,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Robert_Louis_Stevenson_by_Henry_Walter_Barnett_bw.jpg"
         }
       ],
       "translators": [],
@@ -506,7 +523,8 @@
         {
           "name": "Ibsen, Henrik",
           "birth_year": 1828,
-          "death_year": 1906
+          "death_year": 1906,
+          "image": "https://cdn.britannica.com/20/62320-050-45618A83/Henrik-Ibsen-1901.jpg"
         }
       ],
       "translators": [],
@@ -533,14 +551,16 @@
         {
           "name": "Machiavelli, Niccolò",
           "birth_year": 1469,
-          "death_year": 1527
+          "death_year": 1527,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg/1200px-Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg"
         }
       ],
       "translators": [
         {
           "name": "Marriott, W. K. (William Kenaz)",
           "birth_year": null,
-          "death_year": 1927
+          "death_year": 1927,
+          "image":""
         }
       ],
       "subjects": [
@@ -568,7 +588,8 @@
         {
           "name": "Homer",
           "birth_year": -750,
-          "death_year": -650
+          "death_year": -650,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Homer_British_Museum.jpg"
         }
       ],
       "translators": [
@@ -601,12 +622,14 @@
         {
           "name": "Grimm, Wilhelm",
           "birth_year": 1786,
-          "death_year": 1859
+          "death_year": 1859,
+          "image": "https://www.onthisday.com/images/people/wilhelm-grimm-medium.jpg"
         },
         {
           "name": "Grimm, Jacob",
           "birth_year": 1785,
-          "death_year": 1863
+          "death_year": 1863,
+          "image": "https://www.onthisday.com/images/people/jacob-grimm-medium.jpg"
         }
       ],
       "translators": [],
@@ -628,7 +651,8 @@
         {
           "name": "Kafka, Franz",
           "birth_year": 1883,
-          "death_year": 1924
+          "death_year": 1924,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Franz_Kafka%2C_1923.jpg/1200px-Franz_Kafka%2C_1923.jpg"
         }
       ],
       "translators": [
@@ -659,7 +683,8 @@
         {
           "name": "Du Bois, W. E. B. (William Edward Burghardt)",
           "birth_year": 1868,
-          "death_year": 1963
+          "death_year": 1963,
+          "image":"https://www.blackpast.org/wp-content/uploads/prodimages/files/blackpast_images/William_Edward_Burghardt_DuBois_1918.jpg"
         }
       ],
       "translators": [],
@@ -683,7 +708,8 @@
         {
           "name": "Joyce, James",
           "birth_year": 1882,
-          "death_year": 1941
+          "death_year": 1941,
+          "image": "https://i.guim.co.uk/img/media/fa5c01599c7fa657c2c5b8aa501143c55b5cb89e/0_347_2346_1407/master/2346.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=96cb6381e98c6c249e108162b784bbb2"
         }
       ],
       "translators": [],
@@ -719,7 +745,8 @@
         {
           "name": "Dickens, Charles",
           "birth_year": 1812,
-          "death_year": 1870
+          "death_year": 1870,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Dickens_Gurney_head.jpg"
         }
       ],
       "translators": [],
@@ -750,7 +777,8 @@
         {
           "name": "Brontë, Charlotte",
           "birth_year": 1816,
-          "death_year": 1855
+          "death_year": 1855,
+          "image": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTgwMjk3MzM3MTcwNTY4MzQy/charlotte-bronte-1816---1855-author-of-jane-eyre-and-sister-to-anne-and-emily-bronte-photo-by-stock-montagestock-montagegetty-images.jpg"
         }
       ],
       "translators": [],
@@ -782,7 +810,8 @@
         {
           "name": "Thoreau, Henry David",
           "birth_year": 1817,
-          "death_year": 1862
+          "death_year": 1862,
+          "image": "https://www.biography.com/.image/t_share/MTgxMzExODYyNDAxNDExMDE5/gettyimages-3264616.jpg"
         }
       ],
       "translators": [],
@@ -811,14 +840,16 @@
         {
           "name": "Dostoyevsky, Fyodor",
           "birth_year": 1821,
-          "death_year": 1881
+          "death_year": 1881,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Vasily_Perov_-_%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_-_Google_Art_Project.jpg"
         }
       ],
       "translators": [
         {
           "name": "Garnett, Constance",
           "birth_year": 1861,
-          "death_year": 1946
+          "death_year": 1946,
+          "image": ""
         }
       ],
       "subjects": [
@@ -846,13 +877,15 @@
       "authors": [{
         "name": "Hall, J. Lesslie",
         "birth_year": 1856,
-        "death_year": 1928
+        "death_year": 1928,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/John_L_Hall_Jr_during_Normandy.jpg/300px-John_L_Hall_Jr_during_Normandy.jpg"
       }],
       "translators": [
         {
           "name": "Hall, J. Lesslie (John Lesslie)",
           "birth_year": 1856,
-          "death_year": 1928
+          "death_year": 1928,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/John_L_Hall_Jr_during_Normandy.jpg/300px-John_L_Hall_Jr_during_Normandy.jpg"
         }
       ],
       "subjects": [
@@ -877,7 +910,8 @@
         {
           "name": "Dickens, Charles",
           "birth_year": 1812,
-          "death_year": 1870
+          "death_year": 1870,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Dickens_Gurney_head.jpg"
         }
       ],
       "translators": [],
@@ -908,14 +942,16 @@
         {
           "name": "Plato",
           "birth_year": -428,
-          "death_year": -348
+          "death_year": -348,
+          "image": ""
         }
       ],
       "translators": [
         {
           "name": "Jowett, Benjamin",
           "birth_year": 1817,
-          "death_year": 1893
+          "death_year": 1893,
+          "image": ""
         }
       ],
       "subjects": [
@@ -941,19 +977,22 @@
         {
           "name": "Tolstoy, Leo, graf",
           "birth_year": 1828,
-          "death_year": 1910
+          "death_year": 1910,
+          "image": ""
         }
       ],
       "translators": [
         {
           "name": "Maude, Aylmer",
           "birth_year": 1858,
-          "death_year": 1938
+          "death_year": 1938,
+          "image": ""
         },
         {
           "name": "Maude, Louise",
           "birth_year": 1855,
-          "death_year": 1939
+          "death_year": 1939,
+          "image": ""
         }
       ],
       "subjects": [

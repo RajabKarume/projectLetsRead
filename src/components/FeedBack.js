@@ -1,11 +1,12 @@
 import { PlusOutlined } from '@ant-design/icons';
-import { Button, Col, DatePicker, Drawer, Form, Input, Row, Select, Space } from 'antd';
+import { Button, Col, Drawer, Form, Input, Row, Select, Space } from 'antd';
 import React, { useState } from 'react';
-import Homebanner from './HomeBanner';
+import TableData from './Table';
 
 const { Option } = Select;
 
-const App: React.FC = () => {
+
+const FeedBack: React.FC = () => {
   const [open, setOpen] = useState(false);
 
   const showDrawer = () => {
@@ -18,6 +19,27 @@ const App: React.FC = () => {
   const sizeOfText = {
     fontSize:"40px"
   }
+  const [readersName, setReadersName]= useState("")
+  const [authorName, setAuthorName]= useState("")
+  const [bookTitle, setBookTitle]= useState("")
+  const [comments, setComments]= useState("")
+  const [recomendation, setRecomendation]= useState("")
+  const [tableData, setTableData] = useState([])
+ 
+  function handleSubmit(e){
+    e.preventDefault()
+    const formData = {
+        readersName: readersName,
+        authorName: authorName,
+        bookTitle: bookTitle,
+        comments: comments,
+        recomendation: recomendation
+    }
+    const newArr = [...tableData, formData];
+    return setTableData(newArr)
+    
+  }
+  console.log(tableData)
 
   return (
  
@@ -35,7 +57,7 @@ const App: React.FC = () => {
         extra={
           <Space>
             <Button onClick={onClose}>Cancel</Button>
-            <Button onClick={onClose} type="primary">
+            <Button onClick={handleSubmit} type="primary">
               Submit
             </Button>
           </Space>
@@ -49,51 +71,39 @@ const App: React.FC = () => {
                 label="Reader's Name"
                 rules={[{ required: true, message: 'Please enter user name' }]}
               >
-                <Input placeholder="Please enter your name" />
+                <Input placeholder="Please enter your name" onChange={(e)=> setReadersName(e.target.value)} value={readersName} />
               </Form.Item>
             </Col>
             <Col span={12}>
               <Form.Item
                 name="Author"
                 label="Author"
-                rules={[{ required: true, message: 'Please enter url' }]}
+                rules={[{ required: true, message: 'Please enter Authors nane' }]}
               >
                 <Input
                   style={{ width: '100%' }}
-                  placeholder="Please enter url"
+                  placeholder="Please enter Neme of book Author"
+                  onChange={(e)=> setAuthorName(e.target.value)} 
+                  value={authorName}
                 />
               </Form.Item>
             </Col>
-          </Row>
-          <Row gutter={16}>
-            
             <Col span={12}>
               <Form.Item
-                name="type"
-                label="Thoughts"
-                rules={[{ required: true, message: 'Please choose the type' }]}
+                name="book"
+                label="Book Title"
+                rules={[{ required: true, message: 'Please enter Book Title' }]}
               >
-                <Select placeholder="Did you like it">
-                  <Option value="private">Liked It</Option>
-                  <Option value="public">Didn't like it</Option>
-                </Select>
-              </Form.Item>
-            </Col>
-          </Row>
-          <Row gutter={16}>
-            
-            <Col span={12}>
-              <Form.Item
-                name="dateTime"
-                label="Book Recommendation"
-                rules={[{ required: true, message: "Recomend a book to us" }]}
-              >
-                <DatePicker.RangePicker
+                <Input
                   style={{ width: '100%' }}
-                  getPopupContainer={trigger => trigger.parentElement}
+                  placeholder="Please enter book title"
+                  onChange={(e)=> setBookTitle(e.target.value)} 
+                  value={bookTitle}
                 />
               </Form.Item>
             </Col>
+          </Row>
+          <Row gutter={16}>
           </Row>
           <Row gutter={16}>
             <Col span={24}>
@@ -103,20 +113,35 @@ const App: React.FC = () => {
                 rules={[
                   {
                     required: true,
-                    message: 'please enter url description',
+                    message: 'Tell us about the book',
                   },
                 ]}
               >
-                <Input.TextArea rows={4} placeholder="please enter url description" />
+                <Input.TextArea rows={4} placeholder="What were your thoughts on the book" onChange={(e)=> setComments(e.target.value)} value={comments} />
               </Form.Item>
             </Col>
           </Row>
+          <Row gutter={16}>
+            
+            <Col span={12}>
+              <Form.Item
+                name="bookrecommendatio"
+                label="Book Recommendation"
+                rules={[{ required: true, message: "Recomend a book to us" }]}
+              >
+                <Input.TextArea rows={4} placeholder="reccomend a good book" onChange={(e)=> setRecomendation(e.target.value)} value={recomendation} />
+
+              </Form.Item>
+            </Col>
+          </Row>
+          
         </Form>
       </Drawer>
+      <TableData formData={tableData}/>
       <div/>
       </>
     
   );
 };
 
-export default App;
+export default FeedBack;

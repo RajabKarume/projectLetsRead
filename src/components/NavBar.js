@@ -15,9 +15,6 @@ const NavBar: React.FC = () => (
         <NavLink to="/wishlist" exact style={style}>WishList</NavLink>
       </Col>
       <Col className="gutter-row" span={6}>
-        <NavLink to="/authors" style={style}>Authors</NavLink>
-      </Col>
-      <Col className="gutter-row" span={6}>
         <NavLink to="/feedback" style={style}>FeedBack</NavLink>
       </Col>
     </Row>
