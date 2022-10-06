@@ -12,13 +12,13 @@ function NavBar(){
     <div className="collapse navbar-collapse" id="navbarNav" >
       <ul className="navbar-nav">
         <li className="nav-item">
-          <NavLink className="nav-link active" aria-current="page" to="/" exact >Home</NavLink>
+          <NavLink className="nav-link active" aria-current="page" to="/"  >Home</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" exact to="/wishlist">Wishlist</NavLink>
+          <NavLink className="nav-link" to="/wishlist">Wishlist</NavLink>
         </li>
         <li class="nav-item">
-          <NavLink className="nav-link" exact to="/feedback">Feedback</NavLink>
+          <NavLink className="nav-link" to="/feedback">Feedback</NavLink>
         </li>
       </ul>
     </div>

@@ -15,7 +15,7 @@ const contentStyle = {
 const Homebanner = () => (
   <Carousel autoplay>
     <div>
-      <h3 style={contentStyle}>
+      <h3  style={contentStyle}>
         <Image src={image1}/>
       </h3>
     </div>

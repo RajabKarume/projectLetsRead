@@ -1,7 +1,5 @@
 import React from "react";
 import 'antd/dist/antd.css';
-import Homebanner from "./HomeBanner";
-import { useState, useEffect } from 'react';
 import BookCard from "./BookCard"
 
 export default function BookHome({books, setBooks, handleclick}){
@@ -21,7 +19,7 @@ export default function BookHome({books, setBooks, handleclick}){
     
     return(
         <>
-            <h1>Let's read</h1>
+            <h1 className="h1">Let's read</h1>
             <div style={imageCSS} >
                 {books.map((book)=>(
                         < BookCard book={book} key={book.id} handleclick={handleclick} id={book.id}/>

@@ -2,6 +2,7 @@ import React from "react";
 
 function TableData({formData}){
     return(
+        <div style={{paddingTop:"50px"}}>
         <table style={{fontSize:"25px"}} class="table table-success table-striped">
             <thead>
                 <tr>
@@ -24,6 +25,7 @@ function TableData({formData}){
                ))}
             </tbody>
         </table>
+        </div>
     )
 }
 

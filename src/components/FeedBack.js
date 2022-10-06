@@ -52,7 +52,7 @@ const FeedBack: React.FC = ({textSize}) => {
         title="Give us your feedback on any book you have read"
         width={720}
         onClose={onClose}
-        style={textSize}
+        style={{fontSize:"25px"}}
         open={open}
         bodyStyle={{ paddingBottom: 80 }}
         extra={
@@ -66,7 +66,7 @@ const FeedBack: React.FC = ({textSize}) => {
       >
         <Form layout="vertical" hideRequiredMark>
           <Row gutter={16}>
-            <Col span={12}>
+            <Col span={12} >
               <Form.Item
                 name="name"
                 label="Reader's Name"
@@ -75,7 +75,7 @@ const FeedBack: React.FC = ({textSize}) => {
                 <Input placeholder="Please enter your name" onChange={(e)=> setReadersName(e.target.value)} value={readersName} />
               </Form.Item>
             </Col>
-            <Col span={12}>
+            <Col span={12} >
               <Form.Item
                 name="Author"
                 label="Author"
@@ -89,7 +89,7 @@ const FeedBack: React.FC = ({textSize}) => {
                 />
               </Form.Item>
             </Col>
-            <Col span={12}>
+            <Col span={12} >
               <Form.Item
                 name="book"
                 label="Book Title"
@@ -107,7 +107,7 @@ const FeedBack: React.FC = ({textSize}) => {
           <Row gutter={16}>
           </Row>
           <Row gutter={16}>
-            <Col span={24}>
+            <Col span={24} >
               <Form.Item
                 name="description"
                 label="Give us your thought"
@@ -124,7 +124,7 @@ const FeedBack: React.FC = ({textSize}) => {
           </Row>
           <Row gutter={16}>
             
-            <Col span={12}>
+            <Col span={12} >
               <Form.Item
                 name="bookrecommendatio"
                 label="Book Recommendation"
