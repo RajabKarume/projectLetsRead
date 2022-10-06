@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/RajabKarume/projectLetsRead/static/css/main.88b62826.css",
-    "main.js": "/RajabKarume/projectLetsRead/static/js/main.7f00a645.js",
-    "static/js/787.28cb0dcd.chunk.js": "/RajabKarume/projectLetsRead/static/js/787.28cb0dcd.chunk.js",
-    "static/media/elisa-calvet-b-S3nUOqDmUvc-unsplash.jpg": "/RajabKarume/projectLetsRead/static/media/elisa-calvet-b-S3nUOqDmUvc-unsplash.134cd0c302e2a869aee2.jpg",
-    "static/media/fallon-michael-qmlGWIaIgpo-unsplash.jpg": "/RajabKarume/projectLetsRead/static/media/fallon-michael-qmlGWIaIgpo-unsplash.61b4ca75ea5158b89316.jpg",
-    "static/media/fabiola-penalba--kl_XvEOqMU-unsplash.jpg": "/RajabKarume/projectLetsRead/static/media/fabiola-penalba--kl_XvEOqMU-unsplash.752a93dc91b9d7984d8a.jpg",
-    "static/media/natalie-grainger-Mw1efRU1qcU-unsplash.jpg": "/RajabKarume/projectLetsRead/static/media/natalie-grainger-Mw1efRU1qcU-unsplash.46f85faed43614a4d626.jpg",
-    "index.html": "/RajabKarume/projectLetsRead/index.html",
-    "main.88b62826.css.map": "/RajabKarume/projectLetsRead/static/css/main.88b62826.css.map",
-    "main.7f00a645.js.map": "/RajabKarume/projectLetsRead/static/js/main.7f00a645.js.map",
-    "787.28cb0dcd.chunk.js.map": "/RajabKarume/projectLetsRead/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/projectLetsRead/static/css/main.88b62826.css",
+    "main.js": "/projectLetsRead/static/js/main.9fa651cb.js",
+    "static/js/787.28cb0dcd.chunk.js": "/projectLetsRead/static/js/787.28cb0dcd.chunk.js",
+    "static/media/elisa-calvet-b-S3nUOqDmUvc-unsplash.jpg": "/projectLetsRead/static/media/elisa-calvet-b-S3nUOqDmUvc-unsplash.134cd0c302e2a869aee2.jpg",
+    "static/media/fallon-michael-qmlGWIaIgpo-unsplash.jpg": "/projectLetsRead/static/media/fallon-michael-qmlGWIaIgpo-unsplash.61b4ca75ea5158b89316.jpg",
+    "static/media/fabiola-penalba--kl_XvEOqMU-unsplash.jpg": "/projectLetsRead/static/media/fabiola-penalba--kl_XvEOqMU-unsplash.752a93dc91b9d7984d8a.jpg",
+    "static/media/natalie-grainger-Mw1efRU1qcU-unsplash.jpg": "/projectLetsRead/static/media/natalie-grainger-Mw1efRU1qcU-unsplash.46f85faed43614a4d626.jpg",
+    "index.html": "/projectLetsRead/index.html",
+    "main.88b62826.css.map": "/projectLetsRead/static/css/main.88b62826.css.map",
+    "main.9fa651cb.js.map": "/projectLetsRead/static/js/main.9fa651cb.js.map",
+    "787.28cb0dcd.chunk.js.map": "/projectLetsRead/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88b62826.css",
-    "static/js/main.7f00a645.js"
+    "static/js/main.9fa651cb.js"
   ]
 }
