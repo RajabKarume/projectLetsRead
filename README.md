@@ -95,6 +95,6 @@ The following were used to get the project working
 
 
 
-#LICENSE INFORMATION
+# LICENSE INFORMATION
 
 Copyright (c) 2022, Rajab Karume
