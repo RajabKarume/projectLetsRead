@@ -33,6 +33,10 @@ function App() {
   }
   console.log(books)
   console.log(myBooks)
+
+  const textSize = {
+    fontSize: "40px"
+  }
   return (
     <div className="App">
       <div>
@@ -41,9 +45,9 @@ function App() {
           <Homebanner />
           <NavBar />
           <Routes>
-            <Route path="/" element={<BookHome books={books} setBooks={setBooks} key={books.id} handleclick={handleclick} />} />
-            <Route path="/wishlist" element={<WishList myBooks={myBooks} setMyBooks={setMyBooks} handleclick={handleclick} key={books.id} />} />
-            <Route path="/feedback" element={<FeedBack />} />
+            <Route path="/" element={<BookHome textSize={textSize} books={books} setBooks={setBooks} key={books.id} handleclick={handleclick} />} />
+            <Route path="/wishlist" element={<WishList textSize={textSize} myBooks={myBooks} setMyBooks={setMyBooks} handleclick={handleclick} key={books.id} />} />
+            <Route path="/feedback" element={<FeedBack textSize={textSize} />} />
           </Routes>
         </BrowserRouter>,
 

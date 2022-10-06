@@ -9,7 +9,6 @@ function FeedBackData(){
     const [readersName, setReadersName]= useState("")
     const [authorName, setAuthorName]= useState("")
     const [bookTitle, setBookTitle]= useState("")
-    const [thoughts, setThoughts]= useState("")
     const [comments, setComments]= useState("")
     const [recomendation, setRecomendation]= useState("")
    
@@ -17,7 +16,6 @@ function FeedBackData(){
         readersName,
         authorName,
         bookTitle,
-        thoughts,
         comments,
         recomendation
     }
@@ -33,12 +31,11 @@ function FeedBackData(){
             const newData = (data)=>([...data, feedbackInput])
             setTableInfo(newData)
             const emptyInput = {
-                readersName: "",
-                authorName:"",
-                bookTitle:"",
-                thoughts: "Liked It",
-                comments:"",
-                recomendation:""
+                readersName: "Rajab Karume",
+                authorName:"Charles Dickens",
+                bookTitle:"Great Expectations",
+                comments:"Read the book it's really awesome",
+                recomendation:"Also read 'If tomorrow comes' by Sydney Sheldon"
             }
             setFeedbackInput(emptyInput)
         }

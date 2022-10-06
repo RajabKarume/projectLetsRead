@@ -1,25 +1,30 @@
-import { Col, Divider, Row } from 'antd';
-import React from 'react';
-import { NavLink } from "react-router-dom";
+import React from "react";
+import {NavLink} from "react-router-dom"
 
-const style: React.CSSProperties = { background: '#0092ff', padding: '8px 0',fontSize: "2em", color:"black" };
-
-const NavBar: React.FC = () => (
-  <>
-    <Divider orientation="left"></Divider>
-    <Row gutter={16}>
-      <Col className="gutter-row" span={6}>
-        <NavLink to="/" exact style={style}>Home</NavLink>
-      </Col>
-      <Col className="gutter-row" span={6}>
-        <NavLink to="/wishlist" exact style={style}>WishList</NavLink>
-      </Col>
-      <Col className="gutter-row" span={6}>
-        <NavLink to="/feedback" style={style}>FeedBack</NavLink>
-      </Col>
-    </Row>
-
-  </>
-);
+function NavBar(){
+  
+  return(
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <div className="container-fluid" style={{fontSize:"30px", paddingLeft:"20px"}}>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarNav" >
+      <ul className="navbar-nav">
+        <li className="nav-item">
+          <NavLink className="nav-link active" aria-current="page" to="/" exact >Home</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink className="nav-link" exact to="/wishlist">Wishlist</NavLink>
+        </li>
+        <li class="nav-item">
+          <NavLink className="nav-link" exact to="/feedback">Feedback</NavLink>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  )
+}
 
 export default NavBar;

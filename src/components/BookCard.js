@@ -1,7 +1,7 @@
 import { Button, Drawer } from 'antd';
 import React, { useState } from 'react';
 
-const App: React.FC = ({book, id, handleclick}) => {
+const App: React.FC = ({book, id, handleclick, textSize}) => {
   const [open, setOpen] = useState(false);
 
   const showDrawer = () => {
@@ -28,11 +28,10 @@ const App: React.FC = ({book, id, handleclick}) => {
     <>
     <div style={imageCSS}>
             <img style={{ width: 240 }} src={book.image} onClick={showDrawer} />
-            <Button onClick={()=>handleclick(book)}>Add to wish list</Button>
-             <Drawer title={book.title} placement="right" onClose={onClose} open={open} >
-               <h1>{book.title}</h1>
-               <p>{book.description}</p>
-               <p>"T"</p>
+             <Drawer title={book.title} placement="right" onClose={onClose} open={open} style={{fontSize:"20px"}}>
+               <h1 >{book.title}</h1>
+               <p >{book.description}</p>
+               <Button style={{fontSize:"15px", color:"red"}} onClick={()=>handleclick(book)}>Add to wish list</Button>
              </Drawer>
    
     </div>

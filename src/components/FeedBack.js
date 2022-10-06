@@ -6,7 +6,7 @@ import TableData from './Table';
 const { Option } = Select;
 
 
-const FeedBack: React.FC = () => {
+const FeedBack: React.FC = ({textSize}) => {
   const [open, setOpen] = useState(false);
 
   const showDrawer = () => {
@@ -52,6 +52,7 @@ const FeedBack: React.FC = () => {
         title="Give us your feedback on any book you have read"
         width={720}
         onClose={onClose}
+        style={textSize}
         open={open}
         bodyStyle={{ paddingBottom: 80 }}
         extra={

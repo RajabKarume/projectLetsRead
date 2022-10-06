@@ -2,7 +2,7 @@ import React from "react";
 
 function TableData({formData}){
     return(
-        <table>
+        <table style={{fontSize:"25px"}} class="table table-success table-striped">
             <thead>
                 <tr>
                     <th>Reader's Name</th>
@@ -13,8 +13,8 @@ function TableData({formData}){
                 </tr>
             </thead>
             <tbody>
-                {formData.map((data)=>(
-                    <tr>
+                {formData.map((data, index)=>(
+                    <tr key={index}>
                         <td>{data.readersName}</td>
                         <td>{data.authorName}</td>
                         <td>{data.bookTitle}</td>
