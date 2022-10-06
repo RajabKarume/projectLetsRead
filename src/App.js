@@ -34,8 +34,12 @@ function App() {
   console.log(books)
   console.log(myBooks)
 
-  const textSize = {
-    fontSize: "40px"
+  const hStyle = {
+    fontFamily: 'Lucida Console, Times New Roman, Arial, Lucida Handwriting',
+    fontStyle:'italic',
+    fontSize: '150px',
+    textAlign: 'center',
+    color: '#630a04'
   }
   return (
     <div className="App">
@@ -45,9 +49,9 @@ function App() {
           <Homebanner />
           <NavBar />
           <Routes>
-            <Route path="/" element={<BookHome textSize={textSize} books={books} setBooks={setBooks} key={books.id} handleclick={handleclick} />} />
-            <Route path="/wishlist" element={<WishList textSize={textSize} myBooks={myBooks} setMyBooks={setMyBooks} handleclick={handleclick} key={books.id} />} />
-            <Route path="/feedback" element={<FeedBack textSize={textSize} />} />
+            <Route path="/" element={<BookHome hStyle={hStyle} books={books} setBooks={setBooks} key={books.id} handleclick={handleclick} />} />
+            <Route path="/wishlist" element={<WishList hStyle={hStyle} myBooks={myBooks} setMyBooks={setMyBooks} handleclick={handleclick} key={books.id} />} />
+            <Route path="/feedback" element={<FeedBack hStyle={hStyle} />} />
           </Routes>
         </BrowserRouter>,
 

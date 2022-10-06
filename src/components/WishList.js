@@ -2,7 +2,7 @@ import React from "react";
 import 'antd/dist/antd.css';
 import BookCard from "./BookCard"
 
-export default function WishList({myBooks, setMyBooks}){
+export default function WishList({myBooks, setMyBooks, hStyle}){
     console.log(myBooks)
     const imageCSS = {
         width: "100%",
@@ -23,7 +23,7 @@ export default function WishList({myBooks, setMyBooks}){
     
     return(
         <>
-            <h1>Let's read</h1>
+            <h1 style={hStyle}>Let's read</h1>
             <div style={imageCSS} >
                 {myBooks.map((myBook)=>(
                         < BookCard book={myBook} key={myBook.id} handleclick={handleRemove} />

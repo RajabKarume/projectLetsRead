@@ -6,7 +6,7 @@ import TableData from './Table';
 const { Option } = Select;
 
 
-const FeedBack: React.FC = ({textSize}) => {
+const FeedBack: React.FC = ({hStyle}) => {
   const [open, setOpen] = useState(false);
 
   const showDrawer = () => {
@@ -44,6 +44,7 @@ const FeedBack: React.FC = ({textSize}) => {
   return (
  
         <>
+        <h1 style={hStyle}>Let's read</h1>
         <div style={{paddingTop:"50px"}}/>
       <Button type="primary" style={{width:"1000px", height:"100px", fontSize:"40px"}}onClick={showDrawer} icon={<PlusOutlined />}>
         Add FeedBack
