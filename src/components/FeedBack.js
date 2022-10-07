@@ -1,9 +1,9 @@
 import { PlusOutlined } from '@ant-design/icons';
-import { Button, Col, Drawer, Form, Input, Row, Select, Space } from 'antd';
+import { Button, Col, Drawer, Form, Input, Row, Space } from 'antd';
 import React, { useState } from 'react';
 import TableData from './Table';
 
-const { Option } = Select;
+
 
 
 const FeedBack: React.FC = ({hStyle}) => {
@@ -16,9 +16,7 @@ const FeedBack: React.FC = ({hStyle}) => {
   const onClose = () => {
     setOpen(false);
   };
-  const sizeOfText = {
-    fontSize:"40px"
-  }
+  
   const [readersName, setReadersName]= useState("")
   const [authorName, setAuthorName]= useState("")
   const [bookTitle, setBookTitle]= useState("")
@@ -45,7 +43,7 @@ const FeedBack: React.FC = ({hStyle}) => {
  
         <>
         <h1 style={hStyle}>Let's read</h1>
-        <div style={{paddingTop:"50px"}}/>
+        <div style={{paddingTop:"50px"}} className="drawer" />
       <Button type="primary" style={{width:"1000px", height:"100px", fontSize:"40px"}}onClick={showDrawer} icon={<PlusOutlined />}>
         Add FeedBack
       </Button>

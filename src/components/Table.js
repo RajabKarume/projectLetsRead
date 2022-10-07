@@ -2,7 +2,7 @@ import React from "react";
 
 function TableData({formData}){
     return(
-        <div style={{paddingTop:"50px"}}>
+        <div style={{paddingTop:"50px"}} className="table" >
         <table style={{fontSize:"25px"}} class="table table-success table-striped">
             <thead>
                 <tr>

@@ -26,8 +26,8 @@ const App: React.FC = ({book, id, handleclick, textSize}) => {
 
   return (
     <>
-    <div style={imageCSS}>
-            <img style={{ width: 240 }} src={book.image} onClick={showDrawer} />
+    <div style={imageCSS} className="book" >
+            <img style={{ width: 240 }} src={book.image} onClick={showDrawer} alt={book.title} />
              <Drawer title={book.title} placement="right" onClose={onClose} open={open} style={{fontSize:"20px"}}>
                <h1 >{book.title}</h1>
                <p >{book.description}</p>

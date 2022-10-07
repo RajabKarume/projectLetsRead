@@ -1,7 +1,7 @@
 import './App.css';
 import BookHome from './components/BookHome';
 import NavBar from "./components/NavBar"
-import { BrowserRouter, Route, Routes, NavLink } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import Homebanner from './components/HomeBanner';
 import WishList from './components/WishList';

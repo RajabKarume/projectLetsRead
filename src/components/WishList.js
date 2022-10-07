@@ -1,5 +1,5 @@
 import React from "react";
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 import BookCard from "./BookCard"
 
 export default function WishList({myBooks, setMyBooks, hStyle}){
@@ -24,7 +24,7 @@ export default function WishList({myBooks, setMyBooks, hStyle}){
     return(
         <>
             <h1 style={hStyle}>Let's read</h1>
-            <div style={imageCSS} >
+            <div style={imageCSS} className="bookcard" >
                 {myBooks.map((myBook)=>(
                         < BookCard book={myBook} key={myBook.id} handleclick={handleRemove} />
                 ))}

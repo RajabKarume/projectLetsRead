@@ -41,7 +41,7 @@ function FeedBackData(){
         }
     }
     return(
-        <div>
+        <div className="feedback" >
             <Feedback handleSubmit={handleSubmit} handlechange={handlechange} feedbackInput={feedbackInput} setFeedbackInput={setFeedbackInput} />
             <TableData tableInfo={tableInfo} />
         </div>
