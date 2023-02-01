@@ -1,7 +1,7 @@
 import { Button, Drawer } from 'antd';
 import React, { useState } from 'react';
 
-const App: React.FC = ({book, id, handleclick, textSize}) => {
+const App = ({book, id, handleclick, textSize}) => {
   const [open, setOpen] = useState(false);
 
   const showDrawer = () => {

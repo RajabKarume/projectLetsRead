@@ -6,7 +6,7 @@ import TableData from './Table';
 
 
 
-const FeedBack: React.FC = ({hStyle}) => {
+const FeedBack = ({hStyle}) => {
   const [open, setOpen] = useState(false);
 
   const showDrawer = () => {

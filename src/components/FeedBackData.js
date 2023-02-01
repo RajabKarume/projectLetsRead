@@ -1,4 +1,3 @@
-import { Table } from "antd";
 import React, { useState } from "react";
 import Feedback from "./FeedBack";
 import TableData from "./Table"
